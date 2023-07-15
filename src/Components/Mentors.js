@@ -1,8 +1,9 @@
 import React from 'react'
+import "../Components/Mentors.css"
 
 const Mentors = () => {
   return (
-    <div>Mentors</div>
+    <div className="mentor">Mentors</div>
   )
 }
 

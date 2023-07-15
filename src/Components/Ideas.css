@@ -1,0 +1,13 @@
+.idea {
+    height: 100vh;
+  background-image: url('https://img.freepik.com/premium-vector/abstract-modern-ultraviolet-gradient-background_91606-73.jpg') !important;
+    background-attachment: fixed !important;
+  /* Center and scale the image nicely */
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.delete {
+    color: red !important;
+}

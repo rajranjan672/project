@@ -1,0 +1,9 @@
+.mentor {
+    height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/vibrant-fluid-gradient-background-with-curvy-shapes_1017-32108.jpg') !important;
+    background-attachment: fixed !important;
+  /* Center and scale the image nicely */
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
