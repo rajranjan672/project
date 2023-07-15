@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  background-image: url('https://img.freepik.com/premium-vector/abstract-modern-ultraviolet-gradient-background_91606-73.jpg');
+  
+  background-attachment: fixed;
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
