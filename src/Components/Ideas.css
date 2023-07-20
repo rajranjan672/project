@@ -1,10 +1,104 @@
 .idea {
    display: flex;
+   background-color: rgb(218, 218, 245);
+   height: 100vh;
+   width: 99.5vw;
    /* background-color: blue; */
-  margin-top: 30px;
+  /* margin-top: 4px; */
   justify-content: space-between;
 }
 
 .delete {
     color: red !important;
+}
+.card {
+  margin: 8px;
+}
+
+/* .card {
+    display: inline-block !important;
+    background-color: rgb(147, 133, 196) !important;
+    margin-top: 5vw;
+    margin-left: 5%;
+    width: 25vw !important;
+    height: 25vh !important;
+    
+} */
+
+
+.card:hover {
+  background-color: rgb(245, 121, 142) !important;
+  transform: scale(1.05); 
+  
+}
+
+.editbtn {
+  margin-left: 5px;
+}
+
+.editbtn:hover {
+  background-color: rgb(221, 190, 11);
+}
+
+/* .addbtn {
+  margin:1% 1% 0px 3px !important;
+  float: right;
+} 
+.content {
+  height: 100%;
+}
+
+.title {
+  margin-top: auto !important;
+}
+
+.inputarea{
+  margin-bottom: 2px !important;
+}
+.emailarea {
+  margin-bottom: 2px !important;
+}
+
+/* .inputs{
+  margin-top: 5px;
+} */
+.fields{
+  height: 20px !important;
+}
+
+.error{
+  color: red;
+}
+
+.my-swal {
+  z-index: 300000 !important;
+}
+
+.field {
+  margin-top: auto;
+  /* text-align: center; */
+  width: 95% !important;
+  height: 50px !important ;
+  
+}
+
+.muifield {
+  width: 100%;
+  
+  /* text-align: center; */
+}
+.button{
+  margin-top: 10px;
+}
+
+.methods {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  width: 90%;
+  height: 100px;
+}
+
+label{
+  margin-bottom: 2%;
+  margin-top: 2%;
 }

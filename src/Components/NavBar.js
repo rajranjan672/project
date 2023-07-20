@@ -1,12 +1,12 @@
 import React from 'react'
 // import { NavLink } from 'react-router-dom'
 import "../Components/NavBar.css"
+import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <>
- <nav className="navbar navbar-expand-lg navbar-dark bg-dark ms-auto class within ">
-  {/* <a className="navbar-brand" href="#">Writify</a> */}
+ {/* <nav className="navbar navbar-expand-lg navbar-dark bg-dark ms-auto class within ">
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -19,21 +19,21 @@ const NavBar = () => {
     </div>
   </div>
 </nav>
+ */}
 
 
 
 
 
 
-{/* 
-    <div classNameName="navbar">
+    <div className="navbar">
     <ul>
-             <li><NavLink acti to="/" classNameName="nav-item">Idea</NavLink></li>
-             <li><NavLink to="/mentors" classNameName="nav-item">Mentors</NavLink></li>
-             <li><NavLink to="/services" classNameName="nav-item">Services</NavLink></li>
-             <li><NavLink to="/faqs" classNameName="nav-item">FAQs</NavLink></li>
+             <li><NavLink acti to="/" className="nav-item">Idea</NavLink></li>
+             <li><NavLink to="/mentors" className="nav-item">Mentors</NavLink></li>
+             <li><NavLink to="/services" className="nav-item">Services</NavLink></li>
+             <li><NavLink to="/faqs" className="nav-item">FAQs</NavLink></li>
          </ul>
-    </div> */}
+    </div>
     </>
   )
 }
