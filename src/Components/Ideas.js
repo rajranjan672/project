@@ -4,7 +4,6 @@ import "../Components/Ideas.css"
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import axios from 'axios';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -15,6 +14,8 @@ import Swal from 'sweetalert2';
 import { Formik, Form, Field, ErrorMessage, validateYupSchema, FastField } from 'formik';
 import * as Yup from 'yup'
 import { Box, Fade, Modal } from '@mui/material';
+import DeleteIcon from '@mui/icons-material/Delete';
+import EditIcon from '@mui/icons-material/Edit';
 
 const style = {
   position: 'absolute',
@@ -249,8 +250,8 @@ resetForm({})
         </Typography>
       </CardContent>
       <CardActions>
-        <Button  variant='contained' size="small">Edit</Button>
-        <Button  variant='contained' size="small">Delete</Button>
+        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
+        <Button  variant='contained' size="small" className='deleteicon1'> <DeleteIcon/> </Button>
       </CardActions>
     </Card>
     </div>
@@ -272,8 +273,8 @@ resetForm({})
         </Typography>
       </CardContent>
       <CardActions>
-        <Button  variant='contained' size="small">Edit</Button>
-        <Button  variant='contained' size="small">Delete</Button>
+        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
+        <Button  variant='contained' size="small" className='deleteicon1'><DeleteIcon/> </Button>
       </CardActions>
     </Card>
     </div>
@@ -294,8 +295,8 @@ resetForm({})
         </Typography>
       </CardContent>
       <CardActions>
-        <Button  variant='contained' size="small">Edit</Button>
-        <Button  variant='contained' size="small">Delete</Button>
+        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
+        <Button  variant='contained' size="small" className='deleteicon1'><DeleteIcon/> </Button>
       </CardActions>
     </Card>
     </div>
@@ -317,8 +318,8 @@ resetForm({})
         </Typography>
       </CardContent>
       <CardActions>
-        <Button  variant='contained' size="small">Edit</Button>
-        <Button  variant='contained' size="small">Delete</Button>
+        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
+        <Button  variant='contained' size="small" className='deleteicon1'><DeleteIcon/> </Button>
       </CardActions>
     </Card>
     </div>
