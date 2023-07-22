@@ -1,8 +1,11 @@
 import React from 'react'
+import "./FoodRecipies.css";
 
 const FoodRecipies = () => {
   return (
-    <div>FoodRecipies</div>
+    <>
+        <h2  className="centr">FoodRecipies</h2>
+        </>
   )
 }
 

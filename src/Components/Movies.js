@@ -1,8 +1,9 @@
 import React from 'react'
+import "./FoodRecipies.css";
 
 const Movies = () => {
   return (
-    <div>Movies</div>
+    <h2 className="centr">Movies</h2>
   )
 }
 

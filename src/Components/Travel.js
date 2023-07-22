@@ -1,8 +1,9 @@
 import React from 'react'
+import "./FoodRecipies.css";
 
 const Travel = () => {
   return (
-    <div>Travel</div>
+    <h2 className="centr">Travel</h2>
   )
 }
 
