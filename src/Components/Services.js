@@ -57,7 +57,7 @@ export default function Services() {
       </Box>
       <CustomTabPanel value={value} index={0}>
         Item One
-        <h1> hey how r uu</h1>
+        <h1> hey check now</h1>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         Item Two
