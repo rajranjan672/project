@@ -30,14 +30,11 @@ export default function FAQs() {
   }, []);
 
   const result = async () => {
-    const res = await axios.get("http://localhost:3001/api/actionPlans/getActionPlans");
+    const res = await axios.get("http://localhost:3001/api/actionPlan/getActionPlans");
     setData(res.data);
     console.log(res.data);
   };
 
-  
-  
- 
   return (
     <>
     {data.map((item) => {
@@ -49,14 +46,15 @@ export default function FAQs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>{item.title}</Typography>
+          <Typography>{item.question}</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            {item.description}
+            {item.answer}
           </Typography>
         </AccordionDetails>
       </Accordion>
+      
       </div>
     )})}
     </>
