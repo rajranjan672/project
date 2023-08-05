@@ -1,3 +1,13 @@
 .centr {
     margin-left: 44%;
 }
+
+.paper{
+    /* width: 300px !important; */
+    height: 270px !important;
+    
+}
+
+.row {
+    align-items: center !important;
+}
