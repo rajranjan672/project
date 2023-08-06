@@ -16,6 +16,7 @@ import * as Yup from 'yup'
 import { Box, Fade, Modal } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
+import nvbg from '../Assets/nvbg.png'
 
 const style = {
   position: 'absolute',
@@ -110,6 +111,7 @@ resetForm({})
  }
   return (
     <>
+    <img src={nvbg} alt="img" className='servic' />
     <div>
       <Button onClick={handleOpen} variant='contained'>ADD IDEAS</Button>
       </div>
@@ -244,7 +246,7 @@ resetForm({})
         <Typography gutterBottom variant="h5" component="div">
           Lizard
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.black">
           Lizards are a widespread group of squamate reptiles, with over 6,000
           species, ranging across all continents except Antarctica
         </Typography>
@@ -267,7 +269,7 @@ resetForm({})
         <Typography gutterBottom variant="h5" component="div">
           Lizard
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.black">
           Lizards are a widespread group of squamate reptiles, with over 6,000
           species, ranging across all continents except Antarctica
         </Typography>
@@ -289,7 +291,7 @@ resetForm({})
         <Typography gutterBottom variant="h5" component="div">
           Lizard
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.black">
           Lizards are a widespread group of squamate reptiles, with over 6,000
           species, ranging across all continents except Antarctica
         </Typography>
@@ -312,7 +314,7 @@ resetForm({})
         <Typography gutterBottom variant="h5" component="div">
           Lizard
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.black">
           Lizards are a widespread group of squamate reptiles, with over 6,000
           species, ranging across all continents except Antarctica
         </Typography>

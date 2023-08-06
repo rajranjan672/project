@@ -1,18 +1,22 @@
 .idea {
    display: flex;
-   background-color: rgba(218, 245, 225, 0.712);
+   /* background-color: rgba(218, 245, 225, 0.712); */
+   background-image: url('../Assets/woodblue.avif');
    height: 100vh;
-   width: 99.5vw;
+   width: 98.9vw;
    /* background-color: blue; */
   /* margin-top: 4px; */
   justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size:cover !important;
 }
 
 .delete {
     color: red !important;
 }
 .card {
-  margin: 8px;
+  margin: 40px;
 }
 
 /* .card {
@@ -27,7 +31,7 @@
 
 
 .card:hover {
-  background-color: rgb(245, 121, 142) !important;
+  background-color: rgba(9, 139, 148, 0.144) !important;
   transform: scale(1.05); 
   
 }
@@ -45,7 +49,28 @@
   background-color: red!important;
 }
 
+.servic{
+  position: absolute; 
+  right: 0;
+  bottom: 0 !important;
+  z-index: -1;   
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size:cover !important;
+  }
+  @media (min-aspect-ratio: 16/9){
+    .servic{
+      width: 100%;
+      height: auto;
+    }
+  }
 
+  @media (max-aspect-ratio: 16/9){
+      .servic{
+      width: auto;
+      height: 100%;
+    }
+  }
 
 
 
