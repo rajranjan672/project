@@ -1,7 +1,7 @@
 .idea {
    display: flex;
    /* background-color: rgba(218, 245, 225, 0.712); */
-   background-image: url('../Assets/woodblue.avif');
+   background-image: url('../Assets/im.png');
    height: 100vh;
    width: 98.9vw;
    /* background-color: blue; */
@@ -31,7 +31,7 @@
 
 
 .card:hover {
-  background-color: rgba(9, 139, 148, 0.144) !important;
+  background-color: rgb(128, 198, 211) !important;
   transform: scale(1.05); 
   
 }
