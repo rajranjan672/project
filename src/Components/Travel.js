@@ -32,15 +32,15 @@ const Travel = () => {
           <div className='row'>
    {data.map((item) => {
       return(
-      <div  >
+      <div key={item.id} >
       {/* <Paper  className='paper col-10 col-sm-5 col-md-3 col-lg-3 my-3  mx-3' elevation={20}>
       <Typography>{item.Location}</Typography> */}
-        <Card sx={{ maxWidth: 345 }} key={item.id}>
+        <Card sx={{ maxWidth: 345 }} >
       <CardActionArea>
         
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {item.Location}
+            hello
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -48,11 +48,11 @@ const Travel = () => {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      {/* <CardActions>
         <Button size="small" color="primary">
           Share
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
 
 
