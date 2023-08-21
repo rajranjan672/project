@@ -1,73 +1,51 @@
-import React, { useEffect, useState } from 'react'
-import "./Travel.css";
-
+import React from 'react'
+import { Box, Paper } from '@mui/material';
 import axios from 'axios';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
 
-// import Typography from '@mui/material/Typography';
+export default function Travel() {
+  const [data, setData] = React.useState([]);
 
-const Travel = () => {
-
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
+  React.useEffect(() => {
     result();
   }, []);
 
-  const result = async() => {
+  const result = async () => {
     const res = await axios.get("http://localhost:3001/api/Travel/getTravel");
     setData(res.data);
     console.log(res.data);
-
-
+  };
   return (
-    
-   <>
-        <h2  className="centr">Travel</h2>
-        <div className='container'>
+    <>
+    <h2>Travel</h2>
+    <div className='container'>
           <div className='row'>
-   {data.map((item) => {
-      return(
-      <div key={item.id} >
-      {/* <Paper  className='paper col-10 col-sm-5 col-md-3 col-lg-3 my-3  mx-3' elevation={20}>
-      <Typography>{item.Location}</Typography> */}
-        <Card sx={{ maxWidth: 345 }} >
-      <CardActionArea>
-        
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            hello
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      {/* <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions> */}
-    </Card>
+         {data.map((i) =>{
+          return(
+            <Paper key={i.id} className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >
+              {i.price}
+            </Paper>
 
-
-        
-      {/* </Paper> */}
+          )
+         })}
+          
+          <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="..."/>
+       <div class="card-body">
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-          )})}
+       </div>
+        
+
           </div>
         </div>
-   
-        
-   
-   </>
 
+
+
+
+
+
+
+
+    </>
   )
 }
-}
-export default Travel
