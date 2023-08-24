@@ -18,7 +18,7 @@ const bull = (
     component="span"
     sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
   >
-    •
+    
   </Box>
 );
 
@@ -46,11 +46,11 @@ export default function FAQs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>{item.question}</Typography>
+          <Typography> <h5>{item.title}</h5></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            {item.answer}
+            {item.description}
           </Typography>
         </AccordionDetails>
       </Accordion>

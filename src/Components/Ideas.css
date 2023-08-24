@@ -1,16 +1,13 @@
-.idea {
+/* .idea {
    display: flex;
-   /* background-color: rgba(218, 245, 225, 0.712); */
    background-image: url('../Assets/woodblue.avif');
    height: 100vh;
    width: 98.9vw;
-   /* background-color: blue; */
-  /* margin-top: 4px; */
   justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat !important;
   background-size:cover !important;
-}
+} */
 
 .delete {
     color: red !important;
