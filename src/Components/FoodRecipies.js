@@ -22,6 +22,7 @@ const FoodRecipies = () => {
         <h2  className="centr">FoodRecipies</h2>
         <div className='container'>
           <div className='row'>
+<<<<<<< HEAD
             {data.map((item) => {
               return (
                 <Paper key={item.id} className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >
@@ -33,6 +34,11 @@ const FoodRecipies = () => {
             })}
        
           {/* <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} />
+=======
+          <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} />
+          <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} />
+          <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} />
+>>>>>>> 04fe4e275974943ed4bbe46f974d7a2513b91b4d
           <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} />
           <Paper className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} /> */}
           </div>
