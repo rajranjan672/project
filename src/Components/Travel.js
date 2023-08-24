@@ -17,21 +17,21 @@ export default function Travel() {
   return (
     <>
     <h2>Travel</h2>
-    <div className='container'>
-          <div className='row'>
+    <div classNameName='container'>
+          <div classNameName='row'>
          {data.map((i) =>{
           return(
-            <Paper key={i.id} className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >
+            <Paper key={i.id} classNameName='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >
               {i.price}
             </Paper>
 
           )
          })}
           
-          <div class="card" style="width: 18rem;">
-          <img src="..." class="card-img-top" alt="..."/>
-       <div class="card-body">
-       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card" style="width: 18rem;">
+          <img src="..." className="card-img-top" alt="..."/>
+       <div className="card-body">
+       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
        </div>
         
