@@ -4,15 +4,14 @@
    background-image: url('../Assets/woodblue.avif');
 =======
    /* background-color: rgba(218, 245, 225, 0.712); */
-   background-image: url('../Assets/im.png');
->>>>>>> 04fe4e275974943ed4bbe46f974d7a2513b91b4d
+   /* background-image: url('../Assets/im.png');
    height: 100vh;
    width: 98.9vw;
   justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat !important;
   background-size:cover !important;
-} */
+}  */
 
 .delete {
     color: red !important;
