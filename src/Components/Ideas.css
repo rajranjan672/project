@@ -17,7 +17,8 @@
     color: red !important;
 }
 .card {
-  margin: 40px;
+  display: flex;
+  height: 240px !important;
 }
 
 /* .card {
@@ -33,7 +34,7 @@
 
 .card:hover {
   background-color: rgb(128, 198, 211) !important;
-  transform: scale(1.05); 
+  transform: scale(1.04); 
   
 }
 
