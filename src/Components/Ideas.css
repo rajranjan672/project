@@ -1,24 +1,20 @@
-/* .idea {
+ /* .idea {
    display: flex;
-<<<<<<< HEAD
    background-image: url('../Assets/woodblue.avif');
-=======
-   /* background-color: rgba(218, 245, 225, 0.712); */
    background-image: url('../Assets/im.png');
->>>>>>> 04fe4e275974943ed4bbe46f974d7a2513b91b4d
    height: 100vh;
    width: 98.9vw;
   justify-content: space-between;
   background-position: center;
   background-repeat: no-repeat !important;
   background-size:cover !important;
-} */
+}  */
 
 .delete {
     color: red !important;
 }
 .card {
-  margin: 40px;
+ height: 280px !important;
 }
 
 /* .card {
@@ -31,17 +27,25 @@
     
 } */
 
-
+.btn {
+  display: inline !important;
+  justify-content: space-between !important;
+}
 .card:hover {
-  background-color: rgb(128, 198, 211) !important;
+  background-color: rgb(198, 245, 253) !important;
   transform: scale(1.05); 
   
 }
 
-.editbtn {
-  margin-left: 5px;
+.editicon1 {
+ float: left;
+
 }
 
+.deleteicon1 {
+ float: left;
+ padding-left: 4px !important;
+}
 .editicon1:hover {
   background-color: rgb(0, 128, 64) !important;
 }
