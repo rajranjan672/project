@@ -1,6 +1,6 @@
 import React from 'react'
 import "./FoodRecipies.css";
-import { Box, Paper, Typography } from '@mui/material';
+import { Paper, Typography } from '@mui/material';
 import axios from 'axios';
 
 const FoodRecipies = () => {
