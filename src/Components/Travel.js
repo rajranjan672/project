@@ -23,7 +23,7 @@ export default function Travel() {
           return(
             <Paper key={i.id} className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >
                 <Typography>{i.destination}</Typography>
-                <Typography>{i.price}</Typography>
+                <Typography><b>{i.price}</b></Typography>
       
               </Paper>
 

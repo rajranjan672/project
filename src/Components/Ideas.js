@@ -79,51 +79,9 @@ import PostIdea from './PostIdea';
       </CardActions>
     </Card>
     </div>
-    <div >
-    <Card className='card' sx={{ maxWidth: 310, }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.black">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
-        <Button  variant='contained' size="small" className='deleteicon1'><DeleteIcon/> </Button>
-      </CardActions>
-    </Card>
-    </div>
 
-    <div >
-    <Card className='card' sx={{ maxWidth: 310, alignItems:'right'}}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="/static/images/cards/contemplative-reptile.jpg"
-        title="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.black">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button  variant='contained' size="small" className='editicon1'><EditIcon/></Button>
-        <Button  variant='contained' size="small" className='deleteicon1'><DeleteIcon/> </Button>
-      </CardActions>
-    </Card>
-    </div>
+
+   
     </div>
     </>
   );
