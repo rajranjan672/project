@@ -13,9 +13,9 @@
   background-size:cover !important;
 }  */
 
-.delete {
+/* .delete {
     color: red !important;
-}
+} */
 .card {
   display: flex;
   height: 240px !important;
@@ -50,6 +50,8 @@
 .deleteicon1:hover {
   background-color: red!important;
 }
+
+
 
 .servic{
   position: absolute; 

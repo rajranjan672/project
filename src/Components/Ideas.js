@@ -77,8 +77,8 @@ import axios from 'axios';
           </Typography>
 
           <CardActions>
-          <Button variant="contained"><EditIcon /></Button>
-            <Button variant="contained" color='warning'><DeleteIcon /></Button>
+          <Button className='edit' variant="contained"><EditIcon /></Button>
+            <Button className='delete' variant="contained" color='warning'><DeleteIcon /></Button>
 
           </CardActions>
     </Card>
