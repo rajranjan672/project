@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Paper, Typography } from '@mui/material';
+import { Box, Paper,Typography} from '@mui/material';
 import axios from 'axios';
 import "../Components/Travel.css"
 
@@ -27,11 +27,13 @@ export default function Travel() {
               <Typography>{i.Location}</Typography> 
               
             </Paper>
+           
 
           )
          })}
           
           {/* <div className="card">
+          <div className="card" >
           <img src="..." className="card-img-top" alt="..."/>
        <div className="card-body">
        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -45,7 +47,10 @@ export default function Travel() {
 
 
 
-
+{/* too chnge port
+1- netstat -ano | findstr :3000 
+ 2-taskkill /PID 7148 /F
+*/}
 
 
 

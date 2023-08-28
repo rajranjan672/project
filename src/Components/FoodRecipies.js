@@ -22,6 +22,7 @@ const FoodRecipies = () => {
         <h2  className="centr">FoodRecipies</h2>
         <div className='container'>
           <div className='row'>
+
             {data.map((item) => {
               return (
                 <Paper key={item.id} className='paper col-10 col-sm-5 col-md-3 col-lg-5 my-3 py-1 mx-3' elevation={20} >

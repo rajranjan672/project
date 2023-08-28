@@ -1,7 +1,10 @@
  /* .idea {
    display: flex;
-   background-image: url('../Assets/woodblue.avif');
-   background-image: url('../Assets/im.png');
+ 
+ 
+=======
+   /* background-color: rgba(218, 245, 225, 0.712); */
+   /* background-image: url('../Assets/im.png');
    height: 100vh;
    width: 98.9vw;
   justify-content: space-between;
