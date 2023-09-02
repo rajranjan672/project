@@ -19,6 +19,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import nvbg from '../Assets/nvbg.png'
 import PostIdea from './PostIdea';
 import axios from 'axios';
+import { DeleteForeverRounded } from '@mui/icons-material';
 
 
  function Ideas() {
@@ -54,6 +55,13 @@ import axios from 'axios';
     console.log(res.data);
   };
 
+  const DeleteFor = (id)=>{
+    const respo= axios.delete("http://localhost:3001/api/ideas/deleteIdea/" +id) 
+    .then(() =>{
+      result();
+    })
+  }
+
  
   return (
     <>
@@ -78,7 +86,7 @@ import axios from 'axios';
 
           <CardActions>
           <Button className='edit' variant="contained"><EditIcon /></Button>
-            <Button className='delete' variant="contained" color='warning'><DeleteIcon /></Button>
+            <Button className='delete' variant="contained" color='warning' onClick={() => DeleteFor(item._id)}><DeleteIcon /></Button>
 
           </CardActions>
     </Card>
