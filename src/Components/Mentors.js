@@ -1,9 +1,13 @@
 import React from 'react'
 import "../Components/Mentors.css"
 
-const Mentors = () => {
+const Mentors = (props) => {
   return (
-    <div className="mentor">Mentors</div>
+    <>
+    <div className="mentor">
+      </div>
+    
+    </>
   )
 }
 

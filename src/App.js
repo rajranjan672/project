@@ -5,15 +5,17 @@ import Ideas from './Components/Ideas';
 import Mentors from './Components/Mentors';
 import Services from './Components/Services';
 import FAQs from './Components/FAQs';
+import Landing from './Components/Landing';
 
-function App() {
+function App(props) {
   return (
     <div>
       <BrowserRouter>
-      <NavBar />
+      {/* <NavBar /> */}
       <Routes>
-        <Route path='/' element={<Ideas />} />
-        <Route path='/mentors' element={<Mentors />} />
+        <Route path='/' element={<Landing />} />
+        <Route path='/ideas' element={<Ideas  />} />
+        <Route path='/mentors' element={<Mentors  />} />
         <Route path='/services' element={<Services />} />
         <Route path='/faqs' element={<FAQs />} />
 

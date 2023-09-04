@@ -19,9 +19,11 @@ import EditIcon from '@mui/icons-material/Edit';
 import nvbg from '../Assets/nvbg.png'
 import PostIdea from './PostIdea';
 import axios from 'axios';
+import { BrowserRouter } from 'react-router-dom';
+import NavBar from './NavBar';
 
 
- function Ideas() {
+ function Ideas(props) {
   
   const [data, setData] = React.useState([]);
 
@@ -57,6 +59,7 @@ import axios from 'axios';
  
   return (
     <>
+    <NavBar />
     <PostIdea getData={result()} />
 
     {/* <img src={nvbg} alt="img" className='servic' /> */}
@@ -65,9 +68,9 @@ import axios from 'axios';
   <div className='row'>
   {data.map((item) => {
     return(
-    <Card className='card col-7 col-sm-4 col-md-2 col-lg-4 my-1 py-1 mx-1' key={item.id}>
+    <Card className='cards col-7 col-sm-4 col-md-2 col-lg-4 my-1 py-1 mx-1' key={item.id}>
        <Avatar sx={{ bgcolor: avatarBgColor(item) }} >
-            {item.type.charAt(0).toUpperCase()}
+            {item.title.charAt(0).toUpperCase()}
           </Avatar>
       <Typography variant='body2'>Title: {item.title}</Typography>
       <Typography variant='body2'>Type: {item.type}</Typography>
