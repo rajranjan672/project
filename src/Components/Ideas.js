@@ -21,6 +21,7 @@ import PostIdea from './PostIdea';
 import axios from 'axios';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from './NavBar';
+import { DeleteForeverRounded } from '@mui/icons-material';
 
 
  function Ideas(props) {
@@ -56,6 +57,13 @@ import NavBar from './NavBar';
     console.log(res.data);
   };
 
+  const DeleteFor = (id)=>{
+    const respo= axios.delete("http://localhost:3001/api/ideas/deleteIdea/" +id) 
+    .then(() =>{
+      result();
+    })
+  }
+
  
   return (
     <>
@@ -81,7 +89,7 @@ import NavBar from './NavBar';
 
           <CardActions>
           <Button className='edit' variant="contained"><EditIcon /></Button>
-            <Button className='delete' variant="contained" color='warning'><DeleteIcon /></Button>
+            <Button className='delete' variant="contained" color='warning' onClick={() => DeleteFor(item._id)}><DeleteIcon /></Button>
 
           </CardActions>
     </Card>
